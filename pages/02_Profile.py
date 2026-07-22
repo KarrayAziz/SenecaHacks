@@ -1,13 +1,14 @@
-import streamlit as st
-import sys
 import os
+import sys
+
+import streamlit as st
 
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+from app.style_utils import load_css
+from app.sidebar import render_sidebar
 from auth.authenticator import get_authenticator
 from database.models import User
-from style_utils import load_css
-from sidebar import render_sidebar
 
 # Page configuration
 st.set_page_config(

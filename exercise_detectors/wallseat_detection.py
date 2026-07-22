@@ -1,11 +1,12 @@
+import time
+
 import cv2
 import streamlit as st
-import time
-from pose_utils import pose, mp_drawing, mp_pose, calculate_angle
 
 # Add this to each exercise detection page
-from database.models import WorkoutTracker
 from auth.authenticator import get_authenticator
+from database.models import WorkoutTracker
+from utils.pose_utils import pose, mp_drawing, mp_pose, calculate_angle
 
 def wall_sit_tracker():
     st.subheader("📹 Wall Sit Tracker - Live Webcam Feed")

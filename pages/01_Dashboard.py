@@ -1,17 +1,18 @@
-import streamlit as st
+import os
+import sys
+from datetime import datetime, timedelta
+
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from datetime import datetime, timedelta
-import sys
-import os
+import streamlit as st
 
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+from app.style_utils import load_css
+from app.sidebar import render_sidebar
 from auth.authenticator import get_authenticator
 from database.models import WorkoutTracker
-from style_utils import load_css
-from sidebar import render_sidebar
 
 # Page configuration
 st.set_page_config(

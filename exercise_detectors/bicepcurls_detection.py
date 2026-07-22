@@ -1,11 +1,13 @@
 # bicep_curls_detection.py
+import time
+from datetime import datetime
+
 import cv2
 import streamlit as st
-from pose_utils import pose, mp_drawing, mp_pose, calculate_angle
-from database.models import DatabaseManager, WorkoutTracker
+
 from auth.authenticator import get_authenticator
-from datetime import datetime
-import time
+from database.models import DatabaseManager, WorkoutTracker
+from utils.pose_utils import pose, mp_drawing, mp_pose, calculate_angle
 
 # Initialize authenticator
 auth = get_authenticator()
@@ -401,7 +403,7 @@ def main():
     
     # Apply custom CSS if available
     try:
-        from style_utils import load_css
+        from app.style_utils import load_css
         load_css()
     except ImportError:
         pass

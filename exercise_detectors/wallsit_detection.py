@@ -1,8 +1,10 @@
 # wallsit_detection.py
+import time
+
 import cv2
 import streamlit as st
-import time
-from pose_utils import pose, mp_drawing, mp_pose, calculate_angle
+
+from utils.pose_utils import pose, mp_drawing, mp_pose, calculate_angle
 
 def wall_sit_tracker():
     st.subheader("📹 Wall Sit Tracker - Live Webcam Feed")

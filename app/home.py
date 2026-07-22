@@ -1,9 +1,10 @@
 # gym_webapp.py (Page d'Accueil avec Authentification)
-import streamlit as st
-from style_utils import load_css
-from sidebar import render_sidebar
-from auth.authenticator import get_authenticator
 import os
+import streamlit as st
+
+from app.style_utils import load_css
+from app.sidebar import render_sidebar
+from auth.authenticator import get_authenticator
 
 st.set_page_config(
     page_title="FormFit AI - Accueil",

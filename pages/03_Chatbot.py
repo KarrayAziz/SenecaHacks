@@ -1,18 +1,20 @@
-import streamlit as st
-import sys
-import os
-import json
-from datetime import datetime
 import asyncio
 import base64
-from ai_manager import AIManager
-from voice_manager import VoiceManager
+import json
+import os
+import sys
+from datetime import datetime
+
+import streamlit as st
+
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+from app.style_utils import load_css
+from app.sidebar import render_sidebar
 from auth.authenticator import get_authenticator
 from database.models import ChatHistory, WorkoutTracker
-from style_utils import load_css
-from sidebar import render_sidebar
+from services.ai_manager import AIManager
+from services.voice_manager import VoiceManager
 
 # Page configuration
 st.set_page_config(

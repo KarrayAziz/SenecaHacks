@@ -1,7 +1,8 @@
 # pages/02_Exemples.py
 import streamlit as st
-from style_utils import load_css
-from sidebar import render_sidebar # <-- IMPORTER
+
+from app.style_utils import load_css
+from app.sidebar import render_sidebar
 
 st.set_page_config(page_title="Pose Examples", page_icon="🖼️", layout="wide")
 load_css()

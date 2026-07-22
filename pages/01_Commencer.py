@@ -1,14 +1,14 @@
 # pages/01_Commencer.py
 import streamlit as st
-from style_utils import load_css
-from sidebar import render_sidebar # <-- IMPORTER
 
-# (Imports pour les modules de détection)
-from bicepcurls_detection import bicep_curl_tracker
-from shoulderpress_detection import shoulder_press_tracker
-from squats_detection import squat_tracker
-from wallseat_detection import wall_sit_tracker
-from deadlift_detection import deadlift_tracker
+from app.style_utils import load_css
+from app.sidebar import render_sidebar
+
+from exercise_detectors.bicepcurls_detection import bicep_curl_tracker
+from exercise_detectors.shoulderpress_detection import shoulder_press_tracker
+from exercise_detectors.squats_detection import squat_tracker
+from exercise_detectors.wallseat_detection import wall_sit_tracker
+from exercise_detectors.deadlift_detection import deadlift_tracker
 
 st.set_page_config(page_title="Start - FormFit AI", page_icon="💪", layout="wide")
 load_css()
