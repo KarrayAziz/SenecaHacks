@@ -1,4 +1,4 @@
-# 🏋️ FormFit AI
+#  FormFit AI
 
 FormFit AI is a smart fitness coaching app that uses computer vision and AI to help users improve their exercise form in real time. Built for beginners and anyone looking to train safely, it provides posture analysis, rep tracking, progress insights, and AI-guided coaching through a modern Streamlit dashboard.
 
