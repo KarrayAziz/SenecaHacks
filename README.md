@@ -98,7 +98,7 @@ streamlit run app/home.py
 
 Then open the local URL shown in the terminal.
 
-## 🧪 Usage²
+##  Usage
 
 - Create an account or sign in
 - Open the dashboard to review your progress
@@ -106,15 +106,15 @@ Then open the local URL shown in the terminal.
 - Follow real-time form feedback while exercising
 - Use the chatbot for tips, motivation, or exercise guidance
 
-## 🧩 Notes
+##  Notes
 
 - Some voice features may require additional system audio dependencies depending on your operating system.
 - The app is designed as a local-first prototype and can be extended with cloud deployment, more exercises, and deeper analytics.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
 Built as part of a hackathon project focused on health, fitness, and accessible AI-powered coaching.
