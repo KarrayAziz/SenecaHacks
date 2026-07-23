@@ -75,7 +75,7 @@ FormFit AI tackles that problem by bringing a personal coach experience to the u
 ### Installation
 
 ```bash
-git clone https://github.com/KarrayAziz/SenecaHacks2.git
+git clone https://github.com/KarrayAziz/SenecaHacks.git
 cd SenecaHacks2
 python -m venv .venv
 source .venv/bin/activate   # On Windows: .venv\Scripts\activate
@@ -98,7 +98,7 @@ streamlit run app/home.py
 
 Then open the local URL shown in the terminal.
 
-## 🧪 Usage
+## 🧪 Usage²
 
 - Create an account or sign in
 - Open the dashboard to review your progress
