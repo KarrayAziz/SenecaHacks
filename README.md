@@ -64,7 +64,7 @@ FormFit AI tackles that problem by bringing a personal coach experience to the u
 └── README.md             # Project documentation
 ```
 
-## 🚀 Getting started
+##  Getting started
 
 ### Prerequisites
 
