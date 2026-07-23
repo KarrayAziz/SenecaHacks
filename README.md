@@ -7,13 +7,13 @@ FormFit AI is a smart fitness coaching app that uses computer vision and AI to h
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
 ![Mediapipe](https://img.shields.io/badge/Mediapipe-Pose%20Estimation-orange)
 
-## 🌟 Why this project exists
+##  Why this project exists
 
 Many people feel intimidated in the gym, especially when they are new to fitness. Fear of injury, lack of guidance, and uncertainty about proper form are common barriers to staying consistent.
 
 FormFit AI tackles that problem by bringing a personal coach experience to the user’s laptop or desktop through webcam-based motion analysis.
 
-## ✨ Core features
+##  Core features
 
 - Real-time pose estimation with Mediapipe
 - Exercise form feedback for common gym movements
@@ -28,7 +28,7 @@ FormFit AI tackles that problem by bringing a personal coach experience to the u
   - Bicep curls
   - Wall sits
 
-## 🧠 How it works
+##  How it works
 
 1. The app captures live video from the webcam.
 2. Pose landmarks are extracted using Mediapipe.
@@ -36,7 +36,7 @@ FormFit AI tackles that problem by bringing a personal coach experience to the u
 4. The system provides instant feedback and can save workout data for later review.
 5. An AI assistant offers conversational coaching and motivation.
 
-## 🛠️ Tech stack
+##  Tech stack
 
 - Python
 - Streamlit for the web app UI
@@ -47,7 +47,7 @@ FormFit AI tackles that problem by bringing a personal coach experience to the u
 - Groq + dotenv for AI responses
 - SQLite for local user and workout storage
 
-## 📁 Project structure
+##  Project structure
 
 ```text
 .
